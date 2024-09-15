@@ -3,6 +3,7 @@
     grid-template-columns: repeat(4, 1fr); 
     gap: 15px;
     margin: 20px;
+   
 }
 
 .character-card {
@@ -10,12 +11,15 @@
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(21, 21, 21, 0.2); 
+  
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+  
 }
 
 @media (max-width: 600px) {
