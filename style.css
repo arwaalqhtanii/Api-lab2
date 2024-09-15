@@ -10,11 +10,16 @@
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-   
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    #container {
+        grid-template-columns: 1fr; 
+    }
 }
